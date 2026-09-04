@@ -11,7 +11,6 @@ Praticar os fundamentos de SQL (`CREATE TABLE`, `INSERT`, `SELECT`, `WHERE`) e a
 ```
 Data Base.sql     -> script SQL original (referência/documentação da estrutura)
 setup_db.py       -> cria a base de dados products.db e popula com os produtos
-gerir_loja.py     -> menu interativo: listar, adicionar, remover e comprar produtos
 products.db       -> ficheiro da base de dados (gerado automaticamente)
 ```
 
@@ -31,17 +30,6 @@ products.db       -> ficheiro da base de dados (gerado automaticamente)
    python3 setup_db.py
    ```
 
-2. Correr `gerir_loja.py` para interagir com a loja:
-   ```
-   python3 gerir_loja.py
-   ```
-
-   Menu disponível:
-   - **Listar produtos** — mostra todos os produtos e stock atual
-   - **Adicionar produto** — insere um novo produto
-   - **Remover produto** — apaga um produto pelo ID
-   - **Comprar produto** — reduz o stock ao comprar uma quantidade
-
 ## Requisitos
 
 - Python 3
@@ -49,4 +37,4 @@ products.db       -> ficheiro da base de dados (gerado automaticamente)
 
 ## Estado do projeto
 
-🚧 Em desenvolvimento — este projeto vai continuar a ser atualizado (novas funcionalidades, validações, e possivelmente uma interface gráfica).
+🚧 Em desenvolvimento — a próxima etapa é um programa para gerir a loja (comprar, adicionar e remover produtos), ainda por fazer.
